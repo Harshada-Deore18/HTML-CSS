@@ -1,0 +1,43 @@
+<!DOCTYPE html> <!--Defines the document is an html5 document-->
+<html lang = "en"><!--root element of an html page and en means english lang is used in the document-->
+<head >
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content="width=device-width, initial-scale = 1.0">
+
+
+    <title>Page</title> <!--shown in browsers title bar-->
+
+</head>
+<body>
+    <div>
+        <h1>Travel form for our trip</h1>
+        <form action = "form.php">
+            <input type = "text" placeholder="Enter your name"><br>
+
+            <label for = "sectionida">
+            <input type = "radio" value = "Section A" name = "section" id = "sectionida">Section A
+        </label><br>
+        <label for = "sectionidb">
+            <input type = "radio" value = "Section b" name = "section" id = "sectionidb">Section B
+        </label><br>
+        <label for = "sectionidc">
+            <input type = "radio" value = "Section c" name = "section" id = "sectionidc">Section C
+        </label><br>
+        <label >
+            <input type = "checkbox" name = "want food" id = "foodcanteen" class = "red">Pavbhaji
+        </label><br>
+        <label >
+            <input type = "checkbox" name = "want food" id = "foodcanteen" class = "red">Pulav
+        </label><br>
+        <textarea name = "explain" cols = "30" rows= "20" placeholder="Explain why do u want to go for trip"></textarea><br>
+<select name = "car" id = "car">Select your car
+    <option value = "no car" >Select car</option>
+    <option value = "omni" >omni</option>
+    <option value = "swift" >swift</option>
+    <option value = "audi" >audi</option>
+</select>
+        </form>
+    </div>
+</body>
+</html>
